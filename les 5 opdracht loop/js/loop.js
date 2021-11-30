@@ -16,24 +16,21 @@ for (let i = 1; i <= 10; i++) {
 // Opdracht 3
 
 let string = "";
-
 for (let a = 1; a <= 6; a++) {
   for (let j = 1; j <= a; j++) {
     string += j;
   }
   string += "\n";
 }
-
 console.log(string)
 
+// 
 
-let stringg = "";
-
+let string2 = "";
 for (let b = 1; b <= 6; b++) {
-  for (let j = 1; j <= b; j++) {
-    stringg += j;
+  for (let j = 1; j <= 7 - b; j++) {
+    string2 += j;
   }
-  stringg += "\n";
+  string2 += "\n";
 }
-
-console.log(stringg)
+console.log(string2);
